@@ -61,14 +61,14 @@ curl -X POST http://localhost:3000/api/auth/register -H "Content-Type: applicati
 curl -X POST http://localhost:3000/api/auth/login -H "Content-Type: application/json" -d '{"email":"user@example.com", "password":"password123"}'
 ````
 
-Contribuindo
+## Contribuindo
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
-Faça um fork do repositório
-Crie uma branch para sua feature/bugfix (git checkout -b minha-feature)
-Commit suas alterações (git commit -am 'Adiciona minha feature')
-Faça push para a branch (git push origin minha-feature)
-Abra um Pull Request
+- Faça um fork do repositório
+- Crie uma branch para sua feature/bugfix (git checkout -b minha-feature)
+- Commit suas alterações (git commit -am 'Adiciona minha feature')
+- Faça push para a branch (git push origin minha-feature)
+- Abra um Pull Request
 
 ## Licença
 Este projeto é licenciado sob a licença MIT.
