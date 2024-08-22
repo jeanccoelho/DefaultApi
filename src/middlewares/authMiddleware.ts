@@ -12,7 +12,6 @@ export const authMiddleware = (req: Request, res: Response, next: NextFunction) 
 
   try {
     const decoded = verifyToken(token) as JwtPayload & { userId: string; role: string };
-    // Converta o role de string para o enum Role
     req.user = { userId: decoded.userId, role: decoded.role as Role };
     next();
   } catch (error) {

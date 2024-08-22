@@ -7,7 +7,7 @@ export const getAllUsers = async () => {
   
   const users = await database.user.findMany();
   
-  await redis.set('all_users', JSON.stringify(users), 'EX', 60 * 60); // Cache por 1 hora
+  await redis.set('all_users', JSON.stringify(users), 'EX', 60 * 60);
   
   return users;
 };
