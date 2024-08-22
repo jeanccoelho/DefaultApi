@@ -26,7 +26,7 @@ Default Api é um exemplo de API RESTful construída com Node.js, Express, Prism
 1. Clone o repositório:
 
 ````bash
- git clone https://github.com/seu-usuario/DefaultApi.git
+ git clone https://github.com/jeanccoelho/DefaultApi
  cd DefaultApi
 ````
 
